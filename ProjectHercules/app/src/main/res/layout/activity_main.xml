@@ -18,7 +18,8 @@
         android:id="@+id/createButton"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:onClick="createClick (MainActivity)" />
 
     <Button
         android:text="@string/edit_button"

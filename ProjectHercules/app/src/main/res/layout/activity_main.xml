@@ -10,9 +10,23 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.sendnodes.projecthercules.MainActivity">
 
-    <TextView
-        android:id="@+id/sample_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+
+    <Button
+        android:text="@string/create_button"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="147dp"
+        android:id="@+id/createButton"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/edit_button"
+        android:layout_width="match_parent"
+        android:id="@+id/editButton"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_alignTop="@+id/createButton"
+        android:layout_alignParentStart="true" />
+
 </RelativeLayout>

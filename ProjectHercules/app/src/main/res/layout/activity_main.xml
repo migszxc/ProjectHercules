@@ -10,7 +10,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.sendnodes.projecthercules.MainActivity">
 
-
     <Button
         android:text="@string/create_button"
         android:layout_width="match_parent"
@@ -29,5 +28,6 @@
         android:layout_marginTop="50dp"
         android:layout_alignTop="@+id/createButton"
         android:layout_alignParentStart="true" />
+
 
 </RelativeLayout>
